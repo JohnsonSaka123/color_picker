@@ -17,3 +17,4 @@ function hexToRgb(color){
 let toBaseSxTeen= parseInt('ff' , 16);
 console.log(toBaseTen);
 console.log(toBaseSxTeen);*/
+

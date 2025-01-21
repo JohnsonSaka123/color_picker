@@ -11,6 +11,9 @@ body{
   font-family: "Poppins" , sans-serif;
   flex-direction: column;
   gap: 1rem;
+  background-image: url('./3d-tropical-palm-tree-island_1048-10632.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .heading{
   font-size: 1.2rem;

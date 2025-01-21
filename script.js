@@ -1,9 +1,31 @@
+/*function openColorPicker(){
+  const colorPicker = document.createElement('input');
+  colorPicker.type = 'color';
+  colorPicker.oninput = function(){
+    const color = this.value;
+    document.getElementById('color-box').style.backgroundColor = color;
+    document.getElementById('hexValue').textContent = color;
+    document.getElementById('rgbValue').textContent = hexToRgb(color);
+  };
+
+  colorPicker.click();
+}*/
+const colorPickerContainer = document.querySelector('.color-picker');
+const colorInput = document.getElementById('colorInput');
+
+colorPickerContainer.addEventListener('click', () => {
+  colorInput.click(); // Simulates a click on the color input
+});
+
+
+
 document.getElementById('colorInput').addEventListener('input' , function() {
 
     const  color = this. value;
     document.getElementById('hexValue').textContent = color;
     document.getElementById('rgbValue') . textContent = hexToRgb(color);
-});
+
+}); 
 
 function hexToRgb(color){
   const r = parseInt(color.slice(1,3) , 16);
